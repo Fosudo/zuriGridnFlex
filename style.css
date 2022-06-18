@@ -1,0 +1,136 @@
+main{
+    display: flex;
+    padding-top: 6rem;
+    font-size: 0.7rem;
+    justify-content: center;
+}
+
+.car {
+    background: #d5ffdc;
+    text-align: center;
+    padding: 1rem;
+    /* margin: 0.5rem 0; */
+    width: 100%;
+    /* padding: 1rem; */
+    /* margin: 0.5rem; */
+    display: flex;
+    flex-direction: column;
+    min-width: 8rem;
+    max-width: 10.5rem;
+}
+
+img{
+    width: 3rem;
+    height: 3rem;
+    display: flex;
+    flex-basis: initial;
+    margin-left: 1rem;
+    margin-top: 1rem;
+}
+h1{
+    font-family: 'Big Shoulders Display', cursive;
+    color: hsl(0, 0%, 95%);
+    display: flex;
+    flex-basis: initial;
+    margin-left: 1rem;
+    font-weight: 700;
+}
+p {
+    color: hsla(0, 0%, 100%, 0.75);
+    text-align: left;
+    line-height: 1.5;
+    padding-bottom: 2.5rem;
+    margin-left: 1rem;
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+}
+
+.Sedans{
+    background-color: hsl(31, 77%, 52%);
+}
+.Suvs{
+    background-color: hsl(184, 100%, 22%);
+}
+.Luxury{
+    background-color: hsl(179, 100%, 13%);
+}
+
+.button{
+    padding-bottom: 1rem;
+    text-align: left;
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+    margin-left: 1rem;
+}
+
+.buttonsed{
+    background: hsl(0, 0%, 95%);
+    color: hsl(31, 77%, 52%);
+    font: inherit;
+    /* font-weight: bold; */
+    border: 1px solid hsl(0, 0%, 95%);
+    padding: 0.5rem;
+    border-radius: 0.8rem;
+    cursor: pointer;
+} 
+.buttonsuv{
+    background: hsl(0, 0%, 95%);
+    color: hsl(184, 100%, 22%);
+    font: inherit;
+    /* font-weight: bold; */
+    border: 1px solid hsl(0, 0%, 95%);
+    padding: 0.5rem;
+    border-radius: 0.8rem;
+    cursor: pointer;
+} 
+.buttonlux{
+    background: hsl(0, 0%, 95%);
+    color: hsl(179, 100%, 13%);
+    font: inherit;
+    /* font-weight: bold; */
+    border: 1px solid hsl(0, 0%, 95%);
+    padding: 0.5rem;
+    border-radius: 0.8rem;
+    cursor: pointer;
+} 
+
+.buttonsed:hover,
+.buttonsed:active{
+    background: hsl(31, 77%, 52%);
+    color: white;
+}
+.buttonsuv:hover,
+.buttonsuv:active{
+    background: hsl(184, 100%, 22%);
+    color: white;
+}
+.buttonlux:hover,
+.buttonlux:active{
+    background: hsl(179, 100%, 13%);
+    color: white;
+}
+@media (max-width:375px){
+    main{
+        display: flex;
+        padding: 6rem;
+        font-size: 0.7rem;
+        flex-direction: column;
+        width: 200px;
+    }
+    
+    .car {
+      
+        text-align: center;
+        padding: 1rem;
+    
+        width: 100%;
+        /* padding: 1rem; */
+        /* margin: 0.5rem; */
+        display: flex;
+        flex-direction: column;
+        min-width: 8rem;
+        max-width: 10.5rem;
+    }
+    
+
+}

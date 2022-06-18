@@ -1,0 +1,39 @@
+.container{
+    width:10rem;
+    display: grid;
+    margin: 20rem;
+    grid-template-areas: 
+    'a a a b'
+    'a a a b'
+    'c c d d'
+    'c c e e';
+    grid-template-rows:2.5rem;
+    grid-template-columns: 25%;
+    grid-gap: 2px;
+}
+
+.g1{
+    background-color: #f17979;
+    grid-area: a;
+}
+
+.g2{
+    background-color: yellow;
+    grid-area: b;
+}
+
+.g3{
+    background-color: #41f18a;
+    grid-area: c;
+}
+
+.g4{
+    background-color: #25753d;
+    grid-area: d;
+}
+
+.g5{
+    background-color: #3b2d88;
+    grid-area: e;
+    height: 2em;
+}
